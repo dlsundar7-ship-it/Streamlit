@@ -44,13 +44,26 @@ st.markdown("""
 
 
 
+# def get_sql_connection():
+#     return pyodbc.connect(
+#         (
+#             "DRIVER={ODBC Driver 17 for SQL Server};"
+#             "SERVER=WIN-7QUI0BGC7TU;"
+#             "DATABASE=NRoots_Internal;"
+#             "Trusted_Connection=yes;"
+#         ),
+#         autocommit=True
+#     )
+
 def get_sql_connection():
     return pyodbc.connect(
         (
             "DRIVER={ODBC Driver 17 for SQL Server};"
-            "SERVER=WIN-7QUI0BGC7TU;"
+            "SERVER=128.9.15.28;"
             "DATABASE=NRoots_Internal;"
-            "Trusted_Connection=yes;"
+            "UID=Airflow_User;"
+            "PWD=Biuser@2025;"
+            "TrustServerCertificate=yes;"
         ),
         autocommit=True
     )
