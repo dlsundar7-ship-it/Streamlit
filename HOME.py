@@ -27,11 +27,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 
 # Sidebar Logo
-with st.sidebar:
-    st.image(
-        r"D:\NRL\03_NRoot_Workbench\Vimalesh\Streamlit\LOGO.png",
-        width=150
-    )
+# with st.sidebar:
+#     st.image(
+#         r"D:\NRL\03_NRoot_Workbench\Vimalesh\Streamlit\LOGO.png",
+#         width=150
+#     )
 
 
 
