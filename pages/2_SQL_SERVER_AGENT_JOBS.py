@@ -17,11 +17,11 @@ section[data-testid="stSidebar"] {
 </style>
 """, unsafe_allow_html=True)
 
-with st.sidebar:
-    st.image(
-        r"D:\NRL\03_NRoot_Workbench\Vimalesh\Streamlit\LOGO.png",
-        width=150
-    )
+# with st.sidebar:
+#     st.image(
+#         r"D:\NRL\03_NRoot_Workbench\Vimalesh\Streamlit\LOGO.png",
+#         width=150
+#     )
 
 
     
