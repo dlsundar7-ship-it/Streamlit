@@ -59,7 +59,7 @@ def get_sql_connection():
     return pyodbc.connect(
         (
             "DRIVER={ODBC Driver 17 for SQL Server};"
-            "SERVER=128.9.15.28;"
+            "SERVER=128.9.15.28,1433;"
             "DATABASE=NRoots_Internal;"
             "UID=Airflow_User;"
             "PWD=Biuser@2025;"
